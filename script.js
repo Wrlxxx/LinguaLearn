@@ -240,8 +240,8 @@ document.addEventListener('DOMContentLoaded', () => {
     displayNewWord();
     displayFlashcard();
     
-    wordsLearned = 12;
-    correctAnswers = 10;
-    currentStreak = 5;
+    wordsLearned = 0;
+    correctAnswers = 0;
+    currentStreak = 0;
     updateStats();
 });
